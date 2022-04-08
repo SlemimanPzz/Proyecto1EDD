@@ -35,7 +35,7 @@ public class Carta {
      */
     public Palo getPalo(){return palo;}
     /**
-     * Regresa el valor de la carta.
+     * Regresa el valor de la carta. 14 si es mago. 0 si es bufon.
      * @return valor de la carta.
      */
     public int getValor(){return valor;}
@@ -49,13 +49,28 @@ public class Carta {
      */
     public void usar(){ disponible = false;}
     /**
-     * Establece la disonibilidad como verdadera.
+     * Establece la disonibilidad como verdadera. Asi como liberarla
      */
-    public void liberar(){disponible = true;}
+    public void liberar(){
+        disponible = true;
+        dueño = null;
+    }
 
-    public void setDueño(Jugador dueño) {this.dueño = dueño;}
+    /**
+     * Establece el dueño.
+     * @param dueño el nuevo dueño.
+     */
+    public void setDueño(Jugador dueño) {
+        this.dueño = dueño;
+    }
 
-    public Jugador getDueño() {return dueño;}
+    /**
+     * Regresa el dueño actual.
+     * @return el dueño actual.
+     */
+    public Jugador getDueño() {
+        return dueño;
+    }
 
 
     /**
@@ -69,7 +84,7 @@ public class Carta {
         } else if(valor == 0){
             return String.format("%s|BUFON|", "\u001B[37m");
         } else {
-            return String.format("%s|%d %s|%s", this.palo.getBackgorundtColor(), valor, palo.toString(), "\u001B[37m");
+            return String.format("%s|%d %s|%s", this.palo.getColor(), valor, palo.toString(), "\u001B[37m");
         }
     }
 }

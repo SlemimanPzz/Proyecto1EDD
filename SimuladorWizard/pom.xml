@@ -34,7 +34,7 @@
 	<configuration>
 	  <archive>
 	    <manifest>
-	      <mainClass>wizard.simulador.simulador</mainClass>
+	      <mainClass>wizard.simulador.Simulador</mainClass>
 	    </manifest>
 	  </archive>
 	</configuration>

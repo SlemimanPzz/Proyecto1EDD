@@ -39,7 +39,7 @@ public enum Palo {
      * Regresa el color de fondo del palo correspondiente
      * @return una cadena ANSI del color de fondo
      */
-    public String getBackgorundtColor(){
+    public String getColor(){
         switch(this){
             case ROJO:      return "\u001B[31m";
             case VERDE:     return "\u001B[32m";

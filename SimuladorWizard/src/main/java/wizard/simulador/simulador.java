@@ -147,12 +147,11 @@ public class simulador {
     }
 
     public static void main(String[] args){
-        // iniciaJuego();
-        // configuraJuego();
-        baraja = creaBaraja();
-        System.out.println(baraja.length);
-        for(Carta x : baraja){
-            System.out.println(x.toString());
+        iniciaJuego();
+        configuraJuego();
+        Ronda rondas = new Ronda(jugadores, jugadoresTotales, creaBaraja());
+        rondas.juegaRonda();
+        
+
         }
     }
-}
