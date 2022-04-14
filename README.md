@@ -1,9 +1,9 @@
-### Estructura de Datos : Grupo 7038
+# Estructura de Datos : Grupo 7038
 ====================================
 ## Proyecto1EDD : Simulador Wizard
 ------------------------------------
-# De Ricardo Emiliano Apodca Cardiel 
-# N° Cuenta : 422029544
+### De Ricardo Emiliano Apodca Cardiel 
+### N° Cuenta : 422029544
 ------------------------------------
 
 Simulador de Wizard de linea por linea de comandos.
@@ -25,7 +25,7 @@ $ mvn compile
 $ mvn install
 ```
 
-4 Ejecutar el `.jar ``
+4 Ejecutar el ` Simulador.jar `
 ```shell
 $ java -jar target/SimuladorWizard.jar [-f|-n]
 ```
