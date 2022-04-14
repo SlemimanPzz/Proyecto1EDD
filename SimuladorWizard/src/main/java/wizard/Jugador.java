@@ -99,6 +99,10 @@ public class Jugador {
         return mano.get(i);
     }
 
+    public void usaCarta(Carta carta){
+        mano.elimina(carta);
+    }
+
     /**
      * Regresa el nombre del jugador.
      * @return Nombre del jugador.

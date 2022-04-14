@@ -54,7 +54,7 @@
 
     </plugins>
 
-    <finalName>simulador</finalName>
+    <finalName>SimuladorWizard</finalName>
   </build>
 
   <reporting>
