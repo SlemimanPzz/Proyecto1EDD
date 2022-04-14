@@ -227,7 +227,7 @@ public class simulador {
         
 
 
-        // for(int i = 0; i < rondasTotales; i++)
+        for(int i = 0; i < rondasTotales; i++)
             rondas.juegaRonda();
 
         rondas.finaliza();
