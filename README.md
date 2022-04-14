@@ -1,5 +1,5 @@
 # Estructura de Datos : Grupo 7038
-====================================
+------------------------------------
 ## Proyecto1EDD : Simulador Wizard
 ------------------------------------
 ### De Ricardo Emiliano Apodca Cardiel 
@@ -10,22 +10,22 @@ Simulador de Wizard de linea por linea de comandos.
 
 Se utiliza Apache Maven para este proyecto.
 
-1. Para compilar primero estar en `/SimuladorWizard` con 
+1. Para compilar primero estar en `/SimuladorWizard` con:
 ```shell
 $ cd SimuladorWizard/
 ```
 
-2. Depues usar 
+2. Depues usar:
 ```shell
 $ mvn compile
 ````
 
-3. Generar el ` SimuladorWizard.jar `
+3. Generar el ` SimuladorWizard.jar `:
 ```shell
 $ mvn install
 ```
 
-4 Ejecutar el ` Simulador.jar `
+4. Ejecutar el ` Simulador.jar `:
 ```shell
 $ java -jar target/SimuladorWizard.jar [-f|-n]
 ```
