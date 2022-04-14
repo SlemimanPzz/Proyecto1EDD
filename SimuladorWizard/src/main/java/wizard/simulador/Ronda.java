@@ -450,11 +450,11 @@ public class Ronda {
                 ganadores.agregaFinal(j);
         }
         if(ganadores.getLongitud() == 1)
-            System.out.printf("El ganador es %s", ganadores.getPrimero().toString());
+            System.out.printf("El ganador es %s\n", ganadores.getPrimero().toString());
         else{
             System.out.println("Hubo un empate.");
             for(Jugador j : jugadores){
-                System.out.printf("Uno de los ganadores es %s", j.toString());
+                System.out.printf("Uno de los ganadores es %s\n", j.toString());
             }
         }
     }
