@@ -2,7 +2,7 @@
 ------------------------------------
 ## Proyecto1EDD : Simulador Wizard
 ------------------------------------
-### De Ricardo Emiliano Apodca Cardiel 
+### De Ricardo Emiliano Apodaca Cardiel 
 ### N° Cuenta : 422029544
 ------------------------------------
 
